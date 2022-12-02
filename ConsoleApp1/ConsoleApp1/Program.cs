@@ -19,6 +19,7 @@ namespace ConsoleApp1
                 }
                 else if (command == "b")
                 else if (command == "b")
+                else if (command == "b")
                 {
                     Console.WriteLine("Set value:\n");
                     b = Int32.Parse(Console.ReadLine());
@@ -34,6 +35,10 @@ namespace ConsoleApp1
                 else if (command == "+")
                 {
                     Console.WriteLine(a + b);
+                }
+                else if (command == "/")
+                {
+                    Console.WriteLine(a / b);
                 }
             }
 
