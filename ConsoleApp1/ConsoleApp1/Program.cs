@@ -18,8 +18,7 @@ namespace ConsoleApp1
                     a = Int32.Parse(Console.ReadLine());
                 }
                 else if (command == "b")
-                else if (command == "b")
-                else if (command == "b")
+               
                 {
                     Console.WriteLine("Set value:\n");
                     b = Int32.Parse(Console.ReadLine());
