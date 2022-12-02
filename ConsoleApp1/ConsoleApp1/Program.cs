@@ -17,17 +17,17 @@ namespace ConsoleApp1
                     Console.WriteLine("Set value:\n");
                     a = Int32.Parse(Console.ReadLine());
                 }
-            }
-            
-            if (command != null)
-            {
-                if (command == "b")
+                else if (command == "b")
                 {
                     Console.WriteLine("Set value:\n");
                     b = Int32.Parse(Console.ReadLine());
                 }
+                else if (command == "*")
+                {
+                    Console.WriteLine(a * b);
+                }
             }
-           
+
         }
     }
 }
