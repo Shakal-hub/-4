@@ -22,6 +22,10 @@ namespace ConsoleApp1
                     Console.WriteLine("Set value:\n");
                     b = Int32.Parse(Console.ReadLine());
                 }
+                else if (command == "*")
+                {
+                    Console.WriteLine(a * b);
+                }
                 else if (command == "-")
                 {
                     Console.WriteLine(a - b);
